@@ -98,7 +98,7 @@ const Dashboard = (props) => {
 
                     </div>
 
-                    {/* <div className="col-3">
+                    <div className="col-3">
                         <div className="row-3">
 
                             <h1 className="head"> <br /> </h1>
@@ -106,7 +106,7 @@ const Dashboard = (props) => {
                             <LastUpdPref />
 
                         </div>
-                    </div> */}
+                    </div>
                     <div className="col-9">
                         <div className="row-3">
                             <RndmMeal />
