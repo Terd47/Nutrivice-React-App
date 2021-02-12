@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+main label{
+    font-size: 20px;
+}
+.form-control{
+    height: 40px ;
+    font-size: 22px !important;
+}

@@ -1,0 +1,46 @@
+.form-check{
+    background-color: #D8F3DC;
+    margin: 25px;
+    font-size: 20px;
+
+}
+
+label{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.form-check-input{
+    width: 1.4%;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: normal;
+    margin: 4px 0 0;
+}
+
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+        margin: .67em 0;
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+    .form-check-input{
+        width: 2.6%;
+    }
+  }
+
+
+  @media only screen and (max-width: 550px) {
+    .form-check-input{
+        width: 3.6%;
+    }
+  }
+  

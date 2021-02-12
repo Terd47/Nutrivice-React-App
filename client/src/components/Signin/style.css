@@ -1,0 +1,74 @@
+.main {
+    background-color: #378c60;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='117' height='117' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%232f7752' %3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='1'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px 20px rgba(0, 0, 0, 0.3);
+    z-index: -999;
+}
+
+.brand{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #084343;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+.support{
+    text-align: center;
+}
+
+.signin{
+    /* position: relative; */
+    /* left: 40%; */
+    /* border-radius: 20px; */
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: #d8f3dc; */
+
+    align-self: center;
+}
+
+.pillar {
+    height: 100%;
+    width: 600px;
+    background-color: #d8f3dc;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    margin-top: 10px;
+    width: 80%;
+
+    align-self: center;
+
+    text-align: center;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 620px){
+    .pillar {
+        width: 100%;
+    }
+
+    .signin {
+        width: 48%;
+    }
+}

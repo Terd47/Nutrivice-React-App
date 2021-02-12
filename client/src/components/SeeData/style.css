@@ -1,0 +1,42 @@
+.container{
+    padding: 25px;
+    position: relative;
+    display: flexbox;
+    background-color: whitesmoke;
+}
+
+table, th, td {
+	border: 1px black solid;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 10px 10px;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+    text-align: left;
+    background-color: rgb(15, 88, 15);
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+td {
+    text-align: center;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
