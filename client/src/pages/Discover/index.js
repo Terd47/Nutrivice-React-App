@@ -9,7 +9,7 @@ const Discover  = () => {
     return(
         <>
          <Nav2 />
-        <div className="container">
+        <div className="container-fluid">
              <BMI />
         </div>
         <Footer />
