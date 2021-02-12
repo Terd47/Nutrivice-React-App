@@ -30,19 +30,19 @@ const Dashboard = (props) => {
         // props.history.push("/Signin");
     }
 
-    useEffect(() => {
-        const userInfo = localStorage.getItem("decodedTokenID");
-        const regToken = localStorage.getItem("regTokenID");
-        if (userInfo || regToken) {
-            // setAuthenticated(true);
-            console.log("welcome");
-        } else if (!userInfo) {
-            // setAuthenticated(false);
-            // props.history.push("/Signin");
-            window.location.assign('/signin')
-        }
-        console.log(userInfo);
-    })
+    // useEffect(() => {
+    //     const userInfo = localStorage.getItem("decodedTokenID");
+    //     const regToken = localStorage.getItem("regTokenID");
+    //     if (userInfo || regToken) {
+    //         // setAuthenticated(true);
+    //         console.log("welcome");
+    //     } else if (!userInfo) {
+    //         // setAuthenticated(false);
+    //         // props.history.push("/Signin");
+    //         window.location.assign('/signin')
+    //     }
+    //     console.log(userInfo);
+    // })
 
     return (
         <>
